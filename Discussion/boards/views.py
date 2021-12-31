@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-
-    return HttpResponse("Working on a Discussion")
+    return HttpResponse('Hello, World!')
 
 # Create your views here.
